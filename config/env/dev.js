@@ -7,7 +7,7 @@ module.exports = {
   },
   db: {
       mongodb: {
-          uri: 'mongodb://demo:demo55@ds131296.mlab.com:31296/test-db',
+          uri: 'Your DB link goes here',
           options: {
               user: '',
               pass: ''
