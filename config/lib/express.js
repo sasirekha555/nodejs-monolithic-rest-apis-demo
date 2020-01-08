@@ -41,7 +41,7 @@ function initMiddleware(app) {
     app.use(express.static('public'));
     app.get('/',function(req,res){
         //res.render('index');
-        res.send("Welcome! Environment:"+process.env.NODE_ENV);
+        res.send("Welcome to " +process.env.NODE_ENV+ " Environment");
     });
     
 }
